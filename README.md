@@ -24,7 +24,7 @@ Basically calls both the “feedforward” and “backpropagate” functions to 
 Used after the user has trained the model to their desired value of error. The function takes a vector representing a character as an input and runs it through a forward pass of the network. Then, it displays how confident the network is if the detected vector is an Aleph or a Baa. Naturally, the higher percentage is what the network is more confident about.
 
 
-# Sample Output
+## Sample Output
 
 ![Example of inputs and outputs](/images/sampleoutput.png)
 
