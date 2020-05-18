@@ -1,7 +1,7 @@
 ![English "B" to Arabic "ب"](/images/b_to_baa.png)
 
 # Basic English-to-Arabic Alphabet Converter
-A basic feed-forward network that can convert a 5x5 array representing an English A or B into an equivalent Arabic Aleph or Baa through the use of gradient descent and python, numpy, and matplotlib. _(This was done as part of an assignment for a uni elective course, so excuse the incomplete nature of the project!)_
+A basic feed-forward network that can convert a 5x5 array representing an English A or B into an equivalent Arabic Aleph (أ) or Baa (ب) through the use of gradient descent, python, numpy, and matplotlib. _(This was done as part of an assignment for a uni elective course, so excuse the incomplete nature of the project!)_
 
 The network has one hidden layer and one output layer that the user has the choice of defning their amount. The user can also define the learning rate and the activation function to whatever they desire. The defualt activation function used is a sigmoid.
 
@@ -30,7 +30,12 @@ After that, the user simply defines an object of the class and defines how many 
 
 ![Example of inputs and outputs](/images/network.png)
 
-Another part of the code is centered around plotting. The code trains the model for 1500 iterations or until an error of less than 1% is reached. Some points are saved in a list for the purposes of plotting using the “matplotlib” python library. Two regions are colored to showcase regions of interest. Red region is where the error was greater than 1% and green is where its less than that. Thank you for reading this very brief explanation!
-
+Another part of the code is centered around plotting. The code trains the model for 1500 iterations or until an error of less than 1% is reached. Some points are saved in a list for the purposes of plotting using the “matplotlib” python library. Two regions are colored to showcase regions of interest. Red region is where the error was greater than 1% and green is where its less than that. 
 ![Example of inputs and outputs](/images/sampleoutput.png)
+
+## Future Recommendations
+I would recommend expanding the input data set and examples to cover more alphabets. However, that adds more complexity and the addition of another hidden layer could help with increasing the accuracy. Another issue is over fitting and as such more example varrity and sample differences will be rather helpful.
+
+# Thank you for reading this very brief explanation!
+
 
