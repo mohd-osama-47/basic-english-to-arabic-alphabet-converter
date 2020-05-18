@@ -8,7 +8,7 @@ baa   = [0,0,0,0,0,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0]
 
 #English string for A and B
 an_A = [1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,1]
-a_B = [1,1,1,1,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,0]
+a_B  = [1,1,1,1,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,0]
 
 # Activation function
 def sigmoid(x):
@@ -92,7 +92,8 @@ targets=np.array((aleph,baa,baa,aleph,aleph,baa), dtype=int)
 x_axis = []    #Iterations
 y_axis = []    #Error as a %
 
-#specify a NN with 7 hidden neurons, 2 output neurons
+# Takes the 25 pixels as inputs to a 10 hidden neurons network, outputs 25 neurons
+# that represnt the output 25 pixels. The learning rate is assumed to be 0.5.
 NN = NeuralNetwork(examples,targets,10,25,0.5)
 
 i = 0
