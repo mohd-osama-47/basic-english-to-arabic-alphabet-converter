@@ -1,7 +1,7 @@
 ![English "B" to Arabic "ب"](/images/b_to_baa.png)
 
-# basic-english-to-arabic-alphabet-converter
-A basic feed-forward network that can convert a 5x5 array representing an English A or B into an equivalent Arabic Aleph or Baa through the use of gradient descent and python, numpy, and matplotlib. 
+# Basic English-to-Arabic Alphabet Converter
+A basic feed-forward network that can convert a 5x5 array representing an English A or B into an equivalent Arabic Aleph or Baa through the use of gradient descent and python, numpy, and matplotlib. _(This was done as part of an assignment for a uni elective course, so excuse the incomplete nature of the project!)_
 
 The network has one hidden layer and one output layer that the user has the choice of defning their amount. The user can also define the learning rate and the activation function to whatever they desire. The defualt activation function used is a sigmoid.
 
