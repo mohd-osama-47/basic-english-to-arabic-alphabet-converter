@@ -28,6 +28,12 @@ Used after the user has trained the model to their desired value of error. The f
 
 After that, the user simply defines an object of the class and defines how many hidden neurons they desire and what their learning rate is. For the purposes of demonstration, I have chosen 25 output neurons, each representing a singular pixel in the 5x5 character array. That array is approximated to show an array of 1s and 0s so that the user can see if the correct letter was predicted.
 
+```
+# Takes the 25 pixels as inputs to a 10 hidden neurons network, outputs 25 neurons
+# that represnt the output 25 pixels. The learning rate is assumed to be 0.5.
+NN = NeuralNetwork(examples,targets,10,25,0.5)
+```
+
 ![Example of inputs and outputs](/images/network.png)
 
 Another part of the code is centered around plotting. The code trains the model for 1500 iterations or until an error of less than 1% is reached. Some points are saved in a list for the purposes of plotting using the “matplotlib” python library. Two regions are colored to showcase regions of interest. Red region is where the error was greater than 1% and green is where its less than that. 
